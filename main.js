@@ -203,8 +203,3 @@ document.querySelector("#switch").addEventListener("click", () => {
     document.querySelector("#deserts").style.color = "white";
   }
 });
-
-
-
-
-
