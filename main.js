@@ -193,13 +193,3 @@ function renderCart() {
 
 fetchJSONData(url);
 
-// Dark mode toggle
-document.querySelector("#switch").addEventListener("click", () => {
-  if (document.body.style.background === "black") {
-    document.body.style.background = "hsl(13, 31%, 94%)";
-    document.querySelector("#deserts").style.color = "black";
-  } else {
-    document.body.style.background = "black";
-    document.querySelector("#deserts").style.color = "white";
-  }
-});
