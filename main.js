@@ -19,7 +19,7 @@ async function fetchJSONData(url) {
         <div class="image-wrapper">
          <img src="${el.image.mobile}" alt="${el.name}" class="cake-img"/>
           <button class="add-to-cart" data-name="${el.name}" data-price="${el.price}">
-            <img src="/images/icon-add-to-cart.svg" alt="cart icon"/>
+            <img src="images/icon-add-to-cart.svg" alt="cart icon"/>
             <p>Add to Cart</p>
           </button>
           <div class="qty-stepper hidden" data-name="${el.name}">
@@ -131,7 +131,7 @@ function renderCart() {
   if (totalItems === 0) {
     cartSection.innerHTML = `
       <h2>Your Cart (0)</h2>
-      <img src="/images/illustration-empty-cart.svg" alt="empty cart"/>
+      <img src="images/illustration-empty-cart.svg" alt="empty cart"/>
       <p style="color: hsl(12, 20%, 44%); font-weight: 500;">Your added items will appear here</p>
     `;
     return;
